@@ -10,20 +10,18 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <main className="pt-20">
-        <Servicios />
-        <EjemploTour />
-        <Planos />
-        <Ventajas />
-        <Galeria />
-        <Contacto />
-      </main>
+      <Servicios />
+      <EjemploTour />
+      <Planos />
+      <Ventajas />
+      <Galeria />
+      <Contacto />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
