@@ -26,7 +26,14 @@ const Navbar = () => {
         
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
           {['Servicios', 'Tour Virtual', 'Ventajas', 'Galería', 'Contacto'].map((item, index) => {
-            const href = item === 'Tour Virtual' ? '#ejemplo' : `#${item.toLowerCase()}`;
+            let href;
+            if (item === 'Tour Virtual') {
+              href = '#ejemplo';
+            } else if (item === 'Galería') {
+              href = '#galeria';
+            } else {
+              href = `#${item.toLowerCase()}`;
+            }
             return (
               <li key={index}>
                 <a 
@@ -58,7 +65,14 @@ const Navbar = () => {
       } overflow-hidden`}>
         <div className="px-6 py-4 space-y-3">
           {['Servicios', 'Tour Virtual', 'Ventajas', 'Galería', 'Contacto'].map((item, index) => {
-            const href = item === 'Tour Virtual' ? '#ejemplo' : `#${item.toLowerCase()}`;
+            let href;
+            if (item === 'Tour Virtual') {
+              href = '#ejemplo';
+            } else if (item === 'Galería') {
+              href = '#galeria';
+            } else {
+              href = `#${item.toLowerCase()}`;
+            }
             return (
               <a 
                 key={index}
