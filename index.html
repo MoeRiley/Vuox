@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Data inmobiliaria a tu alcance. Obtén informes de valorización, arrendatarios, información sobre propiedades, etc."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="data inmobiliaria, inmobiliaria, informes de valorización, arrendatarios, propiedades, mercado inmobiliario, HomeSpotter"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/FAVICON.svg"
+      alt="HomeSpotter"
+    />
+    <title>HomeSpotter - Tu Copiloto Inmobiliario</title>
+    <!-- Meta etiquetas adicionales para SEO -->
+    <meta
+      property="og:title"
+      content="HomeSpotter - Tu Copiloto Inmobiliario"
+    />
+    <meta
+      property="og:description"
+      content="Data inmobiliaria a tu alcance. Obtén informes de valorización, arrendatarios, información sobre propiedades, etc."
+    />
+    <meta property="og:image" content="/assets/logo_hs.png" />
+    <meta property="og:url" content="https://www.homespotter.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="HomeSpotter - Tu Copiloto Inmobiliario"
+    />
+    <meta
+      name="twitter:description"
+      content="Data inmobiliaria a tu alcance. Obtén informes de valorización, arrendatarios, información sobre propiedades, etc."
+    />
+    <meta name="twitter:image" content="/assets/logo_hs.png" />
+    <link rel="canonical" href="https://www.homespotter.app" />
+    <style>
+      /* Oculta el contenido del encabezado <h1> inicialmente */
+      #root[data-loaded="true"] #seo-header {
+        display: block;
+      }
+      #seo-header {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="seo-header">HomeSpotter - Tu Copiloto Inmobiliario</h1>
+      </header>
+      <div id="root" class="h-screen">
+        <!-- React app will render here -->
+      </div>
+    </main>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Muestra el encabezado <h1> cuando la aplicación esté completamente cargada
+      window.addEventListener("load", function () {
+        document.getElementById("root").setAttribute("data-loaded", "true");
+      });
+    </script>
+  </body>
+</html>

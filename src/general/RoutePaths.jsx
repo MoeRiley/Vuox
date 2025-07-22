@@ -1,0 +1,15 @@
+export const RoutePaths = {
+  HOME: "/",
+  CONOCERMAS: "/demo",
+  MODINSIGHTS: "/product/insights",
+  MODPERSONAS: "/product/personas",
+  MODPROPIEDADES: "/product/propiedades",
+  MODINFVALORIZACION: "/product/informe-valorizacion",
+  MODINFARRENDATARIOS: "/product/informe-arrendatarios",
+  NOSOTROS: "/nosotros",
+  FACTURASINIT: "/pagar-facturas/",
+  FACTURADETAIL: "/pagar-facturas/detalle/:rut",
+  PAGOEXITOSO: "/pago-exitoso",
+  PAGOPENDIENTE: "/pago-pendiente",
+  PAGORECHAZADO: "/pago-rechazado",
+};
