@@ -85,7 +85,7 @@ const Contacto = () => {
           <div className="p-6">
             <div className="text-3xl mb-3">📱</div>
             <h3 className="font-semibold mb-2">WhatsApp</h3>
-            <p className="text-gray-300">+56 9 XXXX XXXX</p>
+            <p className="text-gray-300">+56 9 9730 5192</p>
           </div>
           <div className="p-6">
             <div className="text-3xl mb-3">⏰</div>

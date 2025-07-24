@@ -14,7 +14,7 @@ const EjemploTour = () => {
           <div className="relative bg-white p-4 rounded-2xl shadow-xl">
             <iframe
               className="w-full aspect-video rounded-xl"
-              src="https://my.matterport.com/show/?m=XXXXXXXX"
+              src="https://my.matterport.com/show/?m=JCoYDcanvMH"
               allowFullScreen
               title="Tour virtual inmersivo"
             />

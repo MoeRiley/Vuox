@@ -12,7 +12,7 @@ const Hero = () => {
         
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Vüox
+            VuoX
           </span>
         </h1>
         
@@ -39,10 +39,10 @@ const Hero = () => {
         
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { number: '500+', label: 'Espacios Escaneados' },
+            { number: '200+', label: 'Espacios Escaneados' },
             { number: '4K', label: 'Calidad Ultra HD' },
-            { number: '24/7', label: 'Disponibilidad' },
-            { number: '99%', label: 'Satisfacción' }
+            { number: '+30%', label: 'Mayor Conversión' },
+            { number: '5/5', label: 'Valoración Promedio' }
           ].map((stat, index) => (
             <div key={index} className="p-4">
               <div className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
