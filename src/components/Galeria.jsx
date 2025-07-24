@@ -3,7 +3,7 @@ const Galeria = () => {
     { src: '/media/living.jpeg', alt: 'Living' },
     { src: '/media/piscina.jpeg', alt: 'Piscina' },
     { src: '/media/techo.jpeg', alt: 'Terraza' },
-    { src: '/media/gym.jpeg', alt: 'Gimnacio' }
+    { src: '/media/gym.jpeg', alt: 'Gimnasio' }
   ];
 
   return (
