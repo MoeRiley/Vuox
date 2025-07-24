@@ -27,7 +27,7 @@ const Hero = () => {
             href="#contacto" 
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl hover:scale-105 transition-all duration-200"
           >
-            Solicitar Demo
+            Solicitar Cotización
           </a>
           <a 
             href="#ejemplo" 
