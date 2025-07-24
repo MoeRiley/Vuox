@@ -21,7 +21,7 @@ const Navbar = () => {
     }`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          vuox.io
+          <a href= '#hero'>vuox.io</a>
         </div>
         
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">

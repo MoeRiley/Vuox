@@ -37,18 +37,16 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Empresa</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#ventajas" className="hover:text-white transition-colors">Quiénes Somos</a></li>
+              <li><a href="#hero" className="hover:text-white transition-colors">Quiénes Somos</a></li>
               <li><a href="#galeria" className="hover:text-white transition-colors">Proyectos</a></li>
               <li><a href="#contacto" className="hover:text-white transition-colors">Contacto</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} vuox.io — Todos los derechos reservados. 
-            <span className="ml-2">Reseller autorizado de Matterport</span>
+            © {new Date().getFullYear()} vuox.io — Todos los derechos reservados.
           </p>
         </div>
       </div>

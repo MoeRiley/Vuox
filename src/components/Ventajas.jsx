@@ -14,7 +14,7 @@ const Ventajas = () => {
           ¿Por qué elegir <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Vuox?</span>
         </h2>
         <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
-          Como reseller autorizado de Matterport, te ofrecemos acceso a tecnología de vanguardia 
+          Te ofrecemos acceso a tecnología de vanguardia 
           para mostrar tu propiedad, local o espacio comercial en alta calidad, desde cualquier lugar del mundo.
         </p>
         

@@ -7,7 +7,7 @@ const Planos = () => {
             Planos <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Automáticos</span>
           </h2>
           <p className="text-xl text-gray-600">
-            Generación automática de planos 2D y 3D de alta precisión
+            Generación automática de planos 2D y 3D de alta precisión.
           </p>
         </div>
         

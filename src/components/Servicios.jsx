@@ -15,7 +15,7 @@ const Servicios = () => {
           Nuestros <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Servicios</span>
         </h2>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-16 leading-relaxed">
-          Un paquete completo que incluye fotografía 3D de precisión con tecnología Matterport, 
+          Un paquete completo que incluye Tour Virtual 3D de precisión con tecnología Matterport, 
           alojamiento en la nube, planos automáticos, fotos 4K extraídas y etiquetas interactivas.
         </p>
         

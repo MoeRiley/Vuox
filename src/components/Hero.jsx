@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center px-6 pt-20">
+    <section id="hero" className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center px-6 pt-20">
       <div className="max-w-6xl mx-auto text-center">
         <div className="inline-block p-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mb-8">
           <div className="bg-white px-4 py-2 rounded-full">
@@ -18,7 +18,7 @@ const Hero = () => {
         
         <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
           Creamos <span className="font-semibold text-blue-600">tours virtuales inmersivos</span> con 
-          la tecnología de escaneo 3D más avanzada. Ideal para inmobiliarias, hoteles, tiendas y 
+          la tecnología de escaneo 3D más avanzada. Ideal para inmobiliarias, multifamilies, hoteles, tiendas y 
           espacios que buscan destacar online.
         </p>
         
