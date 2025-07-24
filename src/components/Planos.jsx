@@ -15,7 +15,7 @@ const Planos = () => {
           <div className="group">
             <div className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <img 
-                src="./src/media/plano3dejemplo.jpeg" 
+                src="/media/plano3dejemplo.jpeg" 
                 alt="Plano 3D - Visualización tridimensional" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -30,7 +30,7 @@ const Planos = () => {
           <div className="group">
             <div className="relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <img 
-                src="./src/media/plano2dejemplo.jpeg" 
+                src="/media/plano2dejemplo.jpeg" 
                 alt="Plano 2D - Vista arquitectónica" 
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
