@@ -1,9 +1,9 @@
 const Galeria = () => {
   const images = [
-    { src: '/foto1.jpg', alt: 'Espacio Residencial Moderno' },
-    { src: '/foto2.jpg', alt: 'Hotel Boutique Premium' },
-    { src: '/foto3.jpg', alt: 'Showroom Comercial' },
-    { src: '/foto4.jpg', alt: 'Oficina Corporativa' }
+    { src: '/media/living.jpeg', alt: 'Living' },
+    { src: '/media/piscina.jpeg', alt: 'Piscina' },
+    { src: '/media/techo.jpeg', alt: 'Terraza' },
+    { src: '/media/gym.jpeg', alt: 'Gimnacio' }
   ];
 
   return (
@@ -13,7 +13,7 @@ const Galeria = () => {
           Nuestros <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Proyectos</span>
         </h2>
         <p className="text-xl text-gray-600 mb-16">
-          Explora algunos de los espacios que hemos digitalizado
+          Aquí puedes ver imágenes reales de algunos de los espacios que hemos digitalizado
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
